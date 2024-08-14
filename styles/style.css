@@ -35,6 +35,17 @@ body {
     cursor: pointer;
 }
 
+.primary-font{
+    font-size: 1.5rem;
+    font-weight: 900;
+}
+
+.secondary-font{
+    font-size: 1rem;
+    font-weight: 400;
+    color: rgba(239, 237, 232, 0.65);
+}
+
 /* nav bar styles started */
 nav h3,
 ul {
@@ -76,6 +87,10 @@ header {
     width: 100%;
     /* width: 1440px; */
     height: 715px;
+    background-color: black;
+}
+
+main{
     background-color: black;
 }
 
@@ -202,14 +217,67 @@ header {
 
 }
 
-.tutorial-text>h1 {
-    font-size: 24px;
-    font-weight: 900;
-}
+
 
 .tutorial-text>p {
     margin-top: 5px;
-    font-size: 16px;
-    font-weight: 400;
-    color: rgba(239, 237, 232, 0.65);
+
 }
+
+.change-habits-container {
+    width: 1044px;
+height: 452px;
+border: 2px solid red;
+margin: 0 auto;
+padding-top: 100px;
+}
+
+.change-habits-info{
+    align-items: center;
+    text-align: center;
+}
+
+.change-habits-info>h1{
+    font-size: 3rem;
+    font-weight: 900;
+    margin-bottom: 14px;
+}
+
+.change-habit-img-container{
+
+width: 1044px;
+height: 274px;
+    /* border: 2px solid yellow; */
+    margin-top: 66px;
+    display: flex;
+    margin: 0 auto;
+    margin-top: 65px;
+    justify-content: space-evenly;
+}
+
+.card{
+    width: 231px;
+height: 274px;
+gap: 40px;
+}
+.card img{
+    border-radius: 50%;
+    margin-left: 20px;
+    margin-bottom: 30px;
+}
+
+.card h5{
+    font-size: 1.2rem;
+font-weight: 600;
+text-align: center;
+
+}
+
+.card p{
+    margin-top: 6px;
+    font-size: 0.8rem;
+font-weight: 400;
+text-align: center;
+
+}
+
